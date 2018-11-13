@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/* 内容 */
+/* 指数 */
+.zhishu{ background:#fff; width:1198px; height:105px; border:1px solid #e0e0e0; border-right:0; border-bottom:0;}
+.zhishu li{ height:32px; width:218.5px; border-right:1px solid #e0e0e0;  border-bottom:1px solid #e0e0e0; float:left; padding:10px;}
+.zhishu li .zs_tit{ font-size:18px; color:#333; font-weight:bold; font-style:italic; float:left; line-height:32px;}
+.zhishu li .sheng,.zhishu li .jiang,.zhishu li .ping{ float:right;}
+.zhishu li .sheng p,.zhishu li .jiang p,.zhishu li .ping p{ font-size:22px;  display: inline-block; padding-right:3px;}
+.zhishu li .sheng i,.zhishu li .jiang i,.zhishu li .ping i{ display: inline-block; width:12px; height:12px;vertical-align:3px; padding-right:3px; }
+.zhishu li .sheng span,.zhishu li .jiang span,.zhishu li .ping span{ font-size:13px; background:#f3f3f3; padding:2px 5px; border-radius:15px; vertical-align:3px;}
+.zhishu li .sheng p,.zhishu li .sheng span{ color:#f42d3d;}
+.zhishu li .sheng i{ background:url(../images/sheng.gif) no-repeat; }
+.zhishu li .jiang p,.zhishu li .jiang span{ color:#25942a;}
+.zhishu li .jiang i{ background:url(../images/jiang.gif) no-repeat; }
+.zhishu li .ping p,.zhishu li .ping span{ color:#006cff;}
+.zhishu li .ping i{ background:url(../images/ping.gif) no-repeat; }
+
+/* 热门 */
+.hot{ background:#fff; width:1198px;  border:1px solid #e0e0e0; margin-top:30px; }
+.hot .hot_tit{ height:54px; border-bottom:1px solid #e0e0e0; font-size:18px; line-height:54px; background:url(../images/hot.png) no-repeat 10px 10px; padding-left:50px;}
+.hot .hot_cont{ padding:5px 20px; overflow:auto;}
+.hot .hot_cont li{ width:173px; float:left; font-size:16px; color:#333; padding:0 10px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; line-height:36px;}
+.hot .hot_cont li a{ color:#333;}
+.hot .hot_cont li a:hover{ color:#0084ff; text-decoration:underline;}
+
+/* 交易 */
+.hot .nyjy_tit{ height:54px; border-bottom:1px solid #e0e0e0; font-size:18px; line-height:54px; background:url(../images/coal.png) no-repeat 10px 10px; padding-left:50px;}
+.nyjy_cont{ padding:5px 20px; overflow:auto;}
+.nyjy_cont .jy_tit2{ float:left; width:110px; text-align:center; font-size:18px; line-height:40px; color:#666; position:absolute; top:50%; margin-top:-20px;}
+.nyjy_cont>ul>li{border-bottom:1px solid #e0e0e0;  position:relative; overflow:auto; padding:4px 0; overflow:hidden;}
+.nyjy_cont>ul>li:last-child { border-bottom:0;}
+.nyjy_cont ul li li{ width:177px; float:left; font-size:16px; color:#333; padding:0 10px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; line-height:36px; position:relative;}
+.nyjy_cont ul li li a{color:#333;}
+.nyjy_cont ul li li a:hover{ color:#0084ff; text-decoration:underline;}
+.jy_cont2{ float:right; width:1034px;}
+.boxdown {
+	cursor: pointer;
+	width: 32px;
+	height: 20px;
+	background: url(../images/down.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	top:12px;
+}
+.up {
+	cursor: pointer;
+	width: 32px;
+	height: 20px;
+	background: url(../images/up.png) no-repeat;
+	position: absolute;
+	right: 0px;
+	top:12px;
+}
+.hot .nyzx_tit{ height:54px; border-bottom:1px solid #e0e0e0; font-size:18px; line-height:54px; background:url(../images/news.png) no-repeat 10px 10px; padding-left:50px;}
+.hot .nysj_tit{ height:54px; border-bottom:1px solid #e0e0e0; font-size:18px; line-height:54px; background:url(../images/data.png) no-repeat 10px 10px; padding-left:50px;}
+.hot .nyqy_tit{ height:54px; border-bottom:1px solid #e0e0e0; font-size:18px; line-height:54px; background:url(../images/factory.png) no-repeat 10px 10px; padding-left:50px;}
